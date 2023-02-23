@@ -324,9 +324,33 @@
                 </li>
               </ul>
             </div>
+
+            <form class="subscribe-form">
+              <div class="subscribe">
+                <p class="subscribe-text">Subscribe</p>
+                <label for="personal-email"></label>
+                <div class="email-button">
+                  <input
+                    class="subscribe-email"
+                    type="email"
+                    name="subscribe-email"
+                    id="personal-email"
+                    placeholder="E-mail"
+                    required
+                  />
+                  <button type="submit" class="subscribe-button">
+                    <span class="button-text">Subscribe</span>
+                    <svg class="subscribe-icon" width="24px" height="24px">
+                      <use href="./images/icons.svg#icon-Frame-3"></use>
+                    </svg>
+                  </button>
+                </div>
+              </div>
+            </form>
           </section>
         </div>
       </div>
     </footer>
+    <script src="./js/modal.js"></script>
   </body>
 </html>
